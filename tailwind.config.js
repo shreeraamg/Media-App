@@ -17,7 +17,13 @@ module.exports = {
       xl: "1200px",
       "2xl": "1400px",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        illustration: "url('/illustration.png')",
+        websites: "url('/websites.jpg')",
+        apps: "url('/apps.jpg')",
+      },
+    },
   },
   plugins: [],
 };
