@@ -36,7 +36,7 @@ const pages = [
 
 const Navbar = () => {
   return (
-    <nav className="flex h-24 items-center justify-between">
+    <nav className="flex min-h-[96px] items-center justify-between">
       <Link href="/" className="text-lg font-bold">
         Media App
       </Link>

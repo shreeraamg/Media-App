@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="flex h-12 items-center justify-between text-sm">
+    <div className="flex min-h-[48px] items-center justify-between text-sm">
       <p> &#169; 2023 Media App. All rights reserved</p>
       <div className="flex items-center gap-2">
         <Image
